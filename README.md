@@ -1,13 +1,13 @@
 # capstone_project_danantara_sentiment_analysis
 Sentiment analysis of public opinion on Danantara using IBM Granite and Python.
-# 📊 Danantara Sentiment Analysis
+# Danantara Sentiment Analysis
 
 Analisis sentimen publik terhadap rencana pendirian **Danantara** menggunakan dataset Twitter/X, IBM Granite LLM, dan Python.  
 Proyek ini merupakan bagian dari **Capstone Project** untuk memanfaatkan teknik NLP (Natural Language Processing) dalam menganalisis persepsi masyarakat terhadap isu strategis nasional.
 
 ---
 
-## 🎯 Tujuan
+## Tujuan
 - Mengklasifikasikan sentimen masyarakat Indonesia terkait Danantara ke dalam kategori **positif, negatif, netral**.  
 - Mengidentifikasi **common words** dominan pada tiap label sentimen.  
 - Mengevaluasi indikasi penggunaan **buzzer** dalam komunikasi publik pemerintah.  
@@ -15,7 +15,8 @@ Proyek ini merupakan bagian dari **Capstone Project** untuk memanfaatkan teknik 
 
 ---
 
-## 📂 Dataset
+## Dataset
+https://docs.google.com/spreadsheets/d/12hopTaotyYxsiaZUAFNMJJ4TPtmI-U8k/edit?usp=sharing&ouid=105021870015372986372&rtpof=true&sd=true
 - **Sumber**: Twitter/X  
 - **Jumlah Data**: 4.639 tweet  
 - **Periode**: [20-28 Februari 2025]  
