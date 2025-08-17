@@ -40,7 +40,6 @@ Berikut penjelasan perannya dalam pipeline:
    - Data tweet mentah diproses melalui tahapan **preprocessing**.
    - IBM Granite LLM menerima prompt **instruksi klasifikasi** (positif, negatif, netral).
    - Model mengembalikan output label untuk tiap tweet dengan format terstandarisasi.
-   - Hasil prediksi dipadukan dengan dataset berlabel untuk **analisis lanjutan**.
 
 3. **Kontribusi AI dalam Project**
    - **Automatisasi Labeling**: Mempercepat klasifikasi ribuan tweet yang sebelumnya tidak berlabel.
