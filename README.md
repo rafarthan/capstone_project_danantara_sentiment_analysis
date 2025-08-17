@@ -24,7 +24,7 @@ https://docs.google.com/spreadsheets/d/12hopTaotyYxsiaZUAFNMJJ4TPtmI-U8k/edit?us
 
 ---
 
-## ⚙️ Tools & Libraries
+## Tools & Libraries
 - **Bahasa Pemrograman**: Python (Google Colab)  
 - **Model**: IBM Granite LLM (via Replicate API)  
 - **Libraries**:  
@@ -34,8 +34,36 @@ https://docs.google.com/spreadsheets/d/12hopTaotyYxsiaZUAFNMJJ4TPtmI-U8k/edit?us
   - Export: `openpyxl`, `python-docx`
 
 ---
+## AI Explanation
+---
 
-## 📈 Hasil Utama
+## 🤖 AI Explanation
+
+Proyek ini memanfaatkan **Large Language Model (LLM) IBM Granite** untuk melakukan **klasifikasi sentimen otomatis** pada data tweet.  
+Berikut penjelasan perannya dalam pipeline:
+
+1. **Mengapa AI Digunakan?**
+   - Jumlah data (ribuan tweet) terlalu besar untuk dilabeli manual.
+   - LLM mampu memahami konteks bahasa Indonesia dengan baik, termasuk sarkasme dan frasa tidak formal.
+   - Memberikan hasil yang lebih **scalable dan efisien** dibanding metode manual.
+
+2. **Bagaimana Cara Kerjanya?**
+   - Data tweet mentah diproses melalui tahapan **preprocessing**.
+   - IBM Granite LLM menerima prompt **instruksi klasifikasi** (positif, negatif, netral).
+   - Model mengembalikan output label untuk tiap tweet dengan format terstandarisasi.
+   - Hasil prediksi dipadukan dengan dataset berlabel untuk **analisis lanjutan**.
+
+3. **Kontribusi AI dalam Project**
+   - **Automatisasi Labeling**: Mempercepat klasifikasi ribuan tweet yang sebelumnya tidak berlabel.
+   - **Consistency**: Memberikan label dengan aturan seragam sesuai definisi sentimen yang ditentukan.
+   - **Insight Discovery**: Membantu menemukan pola kata/kalimat dominan yang memengaruhi klasifikasi.
+   - **Decision Support**: Hasil analisis sentimen dipakai untuk menyusun **rekomendasi kebijakan publik** terkait Danantara.
+
+Dengan AI, proyek ini berhasil mengubah data mentah dari Twitter menjadi **informasi strategis** yang relevan untuk pemerintah maupun peneliti.
+
+---
+
+## Hasil Utama
 - **Distribusi Sentimen**:  
   - 40.3% Positif  
   - 30.0% Negatif  
@@ -48,7 +76,7 @@ https://docs.google.com/spreadsheets/d/12hopTaotyYxsiaZUAFNMJJ4TPtmI-U8k/edit?us
 
 ---
 
-## 💡 Rekomendasi
+## Rekomendasi
 - **Transparansi**: Pemerintah perlu membuka mekanisme pengelolaan Danantara secara jelas dan terukur.  
 - **Komunikasi Publik**: Kurangi ketergantungan pada buzzer, perbanyak komunikasi berbasis data dan fakta.  
 - **Kebijakan**: Fokus pada regulasi tata kelola dana dan pengawasan independen.  
